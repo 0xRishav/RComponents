@@ -6,6 +6,7 @@ import {
   BadgeContainer,
   ButtonContainer,
   CardsContainer,
+  ImagesContainer,
 } from "./containers";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <BadgeContainer />
       <ButtonContainer />
       <CardsContainer />
+      <ImagesContainer />
     </div>
   );
 }
