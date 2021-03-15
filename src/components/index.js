@@ -9,3 +9,4 @@ export { default as CardWithTextOverlay } from "./card-with-text-overlay/CardWit
 export { default as HorizontalCardShadow } from "./horizontal-card-with-shadow/HorizontalCardShadow";
 export { default as Image } from "./image/Image";
 export { default as Input } from "./input/Input";
+export { default as List } from "./list/List";
