@@ -5,6 +5,7 @@ import {
   CardWithDismiss,
   CardWithTextOverlay,
   HelloCard,
+  HorizontalCardShadow
 } from "../../components";
 
 function CardsContainer() {
@@ -16,6 +17,7 @@ function CardsContainer() {
         <HelloCard />
         <CardWithDismiss />
         <CardWithTextOverlay />
+        <HorizontalCardShadow />
       </div>
     </div>
   );
