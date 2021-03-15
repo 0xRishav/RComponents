@@ -1,13 +1,13 @@
 import React from "react";
 import "./CardsContainer.css";
-import { CardWithBadge, CardWithDismiss } from "../../components";
+import { CardWithBadge, CardWithDismiss, HelloCard } from "../../components";
 
 function CardsContainer() {
   return (
     <div className="container">
       <div className="component-wrapper">
         <CardWithBadge />
-        <CardWithDismiss />
+        <HelloCard />
       </div>
     </div>
   );

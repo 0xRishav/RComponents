@@ -1,4 +1,4 @@
-.CardWithDismiss {
+.HelloCard {
   width: 230px;
   height: 300px;
   background: linear-gradient(120deg, #ff0000 0%, #2400ff 100%),
@@ -12,7 +12,7 @@
     difference, normal;
   position: relative;
 }
-.CardWithDismiss__heading {
+.HelloCard__heading {
   background-color: white;
   display: block;
   width: 97%;
