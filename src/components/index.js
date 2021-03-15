@@ -8,3 +8,4 @@ export { default as HelloCard } from "./hello-card/HelloCard";
 export { default as CardWithTextOverlay } from "./card-with-text-overlay/CardWithTextOverlay";
 export { default as HorizontalCardShadow } from "./horizontal-card-with-shadow/HorizontalCardShadow";
 export { default as Image } from "./image/Image";
+export { default as Input } from "./input/Input";

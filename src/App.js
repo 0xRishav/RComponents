@@ -7,6 +7,7 @@ import {
   ButtonContainer,
   CardsContainer,
   ImagesContainer,
+  InputContainer,
 } from "./containers";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <ButtonContainer />
       <CardsContainer />
       <ImagesContainer />
+      <InputContainer />
     </div>
   );
 }
