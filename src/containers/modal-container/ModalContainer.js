@@ -13,7 +13,7 @@ function ModalContainer() {
   return (
     <div className="container">
       <main>
-        <h1>React Modal</h1>
+        <h2>React Modal</h2>
         <Modal show={show} handleClose={hideModal}>
           <h4>Hey, I am Modal</h4>
         </Modal>

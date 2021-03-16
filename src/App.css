@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  width: 60%;
+  width: 80%;
   margin: auto;
 }
 
@@ -37,4 +37,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App__menuContainersWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App__activeOptionBtn {
+  background-color: #56c596;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.App__optionBtn {
+  padding: 16px 32px;
+  cursor: pointer;
 }

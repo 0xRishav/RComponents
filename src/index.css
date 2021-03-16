@@ -24,3 +24,7 @@ code {
 .container {
   margin: 64px auto;
 }
+
+.container > h2 {
+  margin-bottom: 64px;
+}

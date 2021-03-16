@@ -18,7 +18,11 @@ function DesktopNav() {
             ))}
           </ul>
         </div>
-        <input className="DesktopNav__searchInput" type="search" />
+        <input
+          className="DesktopNav__searchInput"
+          type="search"
+          placeholder="Search"
+        />
         <div className="DesktopNav__notificationProfileContainer">
           <IoIosNotificationsOutline size="25px" />
           <Avatar source={profilePicAvatar} title="" size="30px" />
