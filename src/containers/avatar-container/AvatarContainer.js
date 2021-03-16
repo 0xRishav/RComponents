@@ -10,9 +10,9 @@ function AvatarContainer() {
     <div className="AvatarContainer container">
       <h2>Avatars</h2>
       <div className="component-wrapper">
-        <Avatar source={femaleAvatar} title="Female Avatar" />
-        <Avatar source={malaAvatar} title="Male Avatar" />
-        <Avatar source={profilePicAvatar} title="Profile Picture" />
+        <Avatar source={femaleAvatar} title="Female Avatar" size="50px" />
+        <Avatar source={malaAvatar} title="Male Avatar" size="50px" />
+        <Avatar source={profilePicAvatar} title="Profile Picture" size="50px" />
       </div>
     </div>
   );

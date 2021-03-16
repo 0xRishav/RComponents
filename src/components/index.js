@@ -10,3 +10,4 @@ export { default as HorizontalCardShadow } from "./horizontal-card-with-shadow/H
 export { default as Image } from "./image/Image";
 export { default as Input } from "./input/Input";
 export { default as List } from "./list/List";
+export { default as DesktopNav } from "./desktop-nav/DesktopNav";

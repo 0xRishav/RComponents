@@ -6,3 +6,4 @@ export { default as CardsContainer } from "./cards-container/CardsContainer";
 export { default as ImagesContainer } from "./images-container/ImagesContainer";
 export { default as InputContainer } from "./input-container/InputContainer";
 export { default as ListsContainer } from "./lists-container/ListsContainer";
+export { default as NavContainer } from "./nav-container/NavContainer";

@@ -1,0 +1,7 @@
+.DesktopNav__ul {
+  display: flex;
+  padding-left: 0;
+}
+.DesktopNav__li {
+  padding-left: 16px;
+}

@@ -9,6 +9,7 @@ import {
   ImagesContainer,
   InputContainer,
   ListsContainer,
+  NavContainer,
 } from "./containers";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <ImagesContainer />
       <InputContainer />
       <ListsContainer />
+      <NavContainer />
     </div>
   );
 }

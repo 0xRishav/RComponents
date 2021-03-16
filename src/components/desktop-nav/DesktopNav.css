@@ -1,0 +1,20 @@
+.DesktopNav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.DesktopNav__notificationProfileContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  align-items: center;
+}
+
+.DesktopNav__searchInput {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #555;
+  background: transparent;
+}
