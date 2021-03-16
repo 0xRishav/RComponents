@@ -37,7 +37,16 @@ function App() {
       <h6 style={{ marginTop: "16px" }}>A reusable react component library.</h6>
       <div className="App__menuContainersWrapper">
         {menuOptions.map((option, index) => (
-          <h4 onClick={() => handleOptionClick(index)} className={active === option ? 'App__activeOptionBtn App__optionBtn' : 'App__optionBtn'}>{option}</h4>
+          <h4
+            onClick={() => handleOptionClick(index)}
+            className={
+              active === option
+                ? "App__activeOptionBtn App__optionBtn"
+                : "App__optionBtn"
+            }
+          >
+            {option}
+          </h4>
         ))}
       </div>
       <div className="App__componentsWrapper">
@@ -52,6 +61,18 @@ function App() {
         {active === "Navigation" && <NavContainer />}
         {active === "Modal" && <ModalContainer />}
       </div>
+      <footer
+        style={{
+          position: "fixed",
+          bottom: "10px",
+          left: "42%",
+          display: "inline",
+        }}
+      >
+        <a href="https://github.com/iamrishavb/RComponents/tree/main/src/components">
+          Link to code of all the components
+        </a>
+      </footer>
     </div>
   );
 }
