@@ -9,6 +9,7 @@ import {
   ImagesContainer,
   InputContainer,
   ListsContainer,
+  ModalContainer,
   NavContainer,
 } from "./containers";
 
@@ -25,6 +26,7 @@ function App() {
       <InputContainer />
       <ListsContainer />
       <NavContainer />
+      <ModalContainer />
     </div>
   );
 }

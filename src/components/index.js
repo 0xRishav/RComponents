@@ -11,3 +11,4 @@ export { default as Image } from "./image/Image";
 export { default as Input } from "./input/Input";
 export { default as List } from "./list/List";
 export { default as DesktopNav } from "./desktop-nav/DesktopNav";
+export { default as Modal } from "./modal/modal";
